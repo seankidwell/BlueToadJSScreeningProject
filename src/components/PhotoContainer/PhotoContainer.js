@@ -19,9 +19,9 @@ export default class PhotoContainer extends Component {
 
   render() {
     return (
-    <div className='individualPhoto'>
-      <a href={`https://www.flickr.com/photos/${this.state.nsid}/${this.props.photoId}`}><img alt='flickrPic' src={`https://farm${this.props.farmId}.staticflickr.com/${this.props.serverId}/${this.props.photoId}_${this.props.secret}_b.jpg`}/></a>
-    </div>
-  )
+      <div className='individualPhoto'>
+        <a href={`https://www.flickr.com/photos/${this.state.nsid}/${this.props.photoId}`}><img alt='flickrPic' src={`https://farm${this.props.farmId}.staticflickr.com/${this.props.serverId}/${this.props.photoId}_${this.props.secret}_b.jpg`}/></a>
+      </div>
+    )
   }
 }
