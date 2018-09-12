@@ -10,7 +10,7 @@ class App extends Component {
       searchText: '',
       images: []
     }
-    this.baseUrl = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&format=json&nojsoncallback=1&safe_search=3&per_page=25'
+    this.baseUrl = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&format=json&nojsoncallback=1&safe_search=1&per_page=25'
   }
 
   changeSearch(value) {

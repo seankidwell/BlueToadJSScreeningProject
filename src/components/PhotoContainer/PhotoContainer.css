@@ -1,0 +1,14 @@
+.individualPhoto {
+  margin: 15px;
+}
+
+img {
+  max-height: 85vh;
+  border: 8px #dadada outset;
+  transition: 700ms;
+}
+
+img:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 6px 6px 9px 0px black;
+}
